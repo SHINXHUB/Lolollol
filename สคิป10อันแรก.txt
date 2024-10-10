@@ -390,7 +390,7 @@ function Update:Window(text,logo,keybind)
     UserText.TextColor3 = Color3.fromRGB(255, 255, 255)
     UserText.Size = UDim2.new(0, 80, 0, 25)
     UserText.Font = Enum.Font.GothamSemibold
-    UserText.Text = "Min Gaming Hub"
+    UserText.Text = "SHIN X HUB"
     UserText.TextScaled = true
     UserText.TextSize = 17.000
     UserText.TextWrapped = true
@@ -407,7 +407,7 @@ function Update:Window(text,logo,keybind)
   --  UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://13717478897"
+    UserImage.Image = "rbxassetid://94356636757562"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -785,7 +785,7 @@ function Update:Window(text,logo,keybind)
     local main = {}
     function main:AddButton(text, callback)
         if logo == nil then
-            logo = "15009422255"
+            logo = "94356636757562"
         end
         local Button = Instance.new("Frame")
         local UICorner = Instance.new("UICorner")
@@ -885,7 +885,7 @@ function Update:Window(text,logo,keybind)
     function main:AddToggle(TogInfo ,default, callback)
         local toggle = false
         if logo == nil then
-            logo = "15009422255"
+            logo = "94356636757562"
         end
         local CheckFrame = Instance.new("Frame")
         local CheckFrame2 = Instance.new("Frame")
@@ -3418,7 +3418,7 @@ end)
         localplayer=game:GetService("Players").LocalPlayer
         game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         local torso = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
-        local speedSET=25
+        local speedSET=35
         local keys={a=false,d=false,w=false,s=false}
         local e1
         local e2
@@ -3638,7 +3638,7 @@ end
     function HyperCahaya(Pos)
         Distance = (Pos.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
         if Distance < 10 then
-            Speed = 20
+            Speed = 350
         elseif Distance < 25 then
             Speed = 5050
         elseif Distance < 50 then
@@ -3825,17 +3825,17 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("Min Gaming Hub","",Enum.KeyCode.RightControl);
-local Main = Library:AddTab("Main","4483345998")
-local M = Library:AddTab("Item","4483345998")
-local Ss = Library:AddTab("Stats","4483345998")
-local RaceV4 = Library:AddTab("Race V4","4483345998")
-local P = Library:AddTab("PVP","4483345998")
-local R = Library:AddTab("Dungeon","4483345998")
-local T = Library:AddTab("Teleport","4483345998")
-local S = Library:AddTab("Shop","4483345998")
-local D = Library:AddTab("Devil Fruit","4483345998")
-local Misc = Library:AddTab("Misc","4483345998")
+local Library = Update:Window("SHIN X HUB","",Enum.KeyCode.RightControl);
+local Main = Library:AddTab("เมนู","4483345998")
+local M = Library:AddTab("ไอเท็ม","4483345998")
+local Ss = Library:AddTab("สเตตัส","4483345998")
+local RaceV4 = Library:AddTab("เผ่า V4","4483345998")
+local P = Library:AddTab("ต่อสู้","4483345998")
+local R = Library:AddTab("ดันเจี้ยน","4483345998")
+local T = Library:AddTab("เทเลพอร์ต","4483345998")
+local S = Library:AddTab("ร้านค้า","4483345998")
+local D = Library:AddTab("ผลปีศาจ","4483345998")
+local Misc = Library:AddTab("อื่นๆ","4483345998")
 ---------------------------------------------------
 Main:AddSeperator("Farm Settings")
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
